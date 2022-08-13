@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/modal.css" />
+  </head>
+  <body>
+    <h1 id="judul">Cari Luas</h1>
+
+    <div style="background-color: grey">
+      <label for="fPanjang">Panjang:</label>
+      <input type="number" id="fPanjang" name="fPanjang" /><br /><br />
+      <label for="fLebar">Lebar:</label>
+      <input type="number" id="fLebar" name="fLebar" /><br /><br />
+
+      <button id="hitungButton">Hitung Luas</button>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="hasilLuasOuput"></p>
+      </div>
+    </div>
+
+    <script src="/main.js"></script>
+    <script src="/modal.js"></script>
+  </body>
+</html>
